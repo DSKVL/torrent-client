@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="abf80dee-2b7a-495d-9a61-813469f3d94e" name="Changes" comment="fin2">
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/nsu/fit/dskvl/torrent/Downloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/nsu/fit/dskvl/torrent/Downloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/nsu/fit/dskvl/torrent/FileDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/nsu/fit/dskvl/torrent/FileDownloader.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="torrent" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2A9W9M8kwNDJmkW3HLv2dYpBcsU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_directory_selection": "/home/dskvl/NSU/torrent/src/main/java",
+    "last_opened_file_path": "/home/dskvl/NSU/NetworkTechnologies/CopiesLocator",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "inlay.hints"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/client3" />
+      <recent name="$PROJECT_DIR$/src/test/resources/client2" />
+      <recent name="$PROJECT_DIR$/src/test/resources/client1" />
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+      <recent name="$PROJECT_DIR$/src/main" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/client1" />
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ru.nsu.fit.dskvl.torrent.network" />
+      <recent name="ru.nsu.fit.dskvl.torrent" />
+      <recent name="ru.nsu.fit.dskvl.torrent.fileio" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Client 4">
+    <configuration name="Client 1" type="Application" factoryName="Application" singleton="false" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="ru.nsu.fit.dskvl.torrent.Client" />
+      <module name="torrent.main" />
+      <option name="PROGRAM_PARAMETERS" value="--metainfo=ubuntu-22.04.1-desktop-amd64.iso.torrent --port=36423" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/test/resources/client1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client 2" type="Application" factoryName="Application" singleton="false">
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-18" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="ru.nsu.fit.dskvl.torrent.Client" />
+      <module name="torrent.main" />
+      <option name="PROGRAM_PARAMETERS" value="--metainfo=ubuntu-22.04.1-desktop-amd64.iso.torrent --port=36424" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/test/resources/client2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client 3" type="Application" factoryName="Application" singleton="false">
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-18" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="ru.nsu.fit.dskvl.torrent.Client" />
+      <module name="torrent.main" />
+      <option name="PROGRAM_PARAMETERS" value="--metainfo=ubuntu-22.04.1-desktop-amd64.iso.torrent --port=36425 " />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/test/resources/client3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client 4" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-18" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="ru.nsu.fit.dskvl.torrent.Client" />
+      <module name="torrent.main" />
+      <option name="PROGRAM_PARAMETERS" value="--metainfo=ubuntu-22.04.1-desktop-amd64.iso.torrent 127.0.0.1:36424 127.0.0.1:36425" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/test/resources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-18" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="ru.nsu.fit.dskvl.torrent.Client" />
+      <module name="torrent.main" />
+      <option name="PROGRAM_PARAMETERS" value="--metainfo=ubuntu-22.04.1-desktop-amd64.iso.torrent 127.0.0.1:36424 127.0.01:55474" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/test/resources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Client 2" />
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.Client 3" />
+      <item itemvalue="Application.Client 4" />
+      <item itemvalue="Application.Client 1" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Client 1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="abf80dee-2b7a-495d-9a61-813469f3d94e" name="Changes" comment="" />
+      <created>1654422130166</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1654422130166</updated>
+      <workItem from="1654422131520" duration="7505000" />
+      <workItem from="1654495016410" duration="819000" />
+      <workItem from="1654498658822" duration="809000" />
+      <workItem from="1655464480302" duration="1654000" />
+      <workItem from="1655645395740" duration="603000" />
+      <workItem from="1655719805441" duration="16215000" />
+      <workItem from="1655798342924" duration="4079000" />
+      <workItem from="1655884429157" duration="4790000" />
+      <workItem from="1656159455873" duration="23355000" />
+      <workItem from="1656343798749" duration="493000" />
+      <workItem from="1656398236815" duration="7943000" />
+      <workItem from="1656429106224" duration="17000" />
+      <workItem from="1656496264343" duration="115000" />
+      <workItem from="1656496394491" duration="1194000" />
+      <workItem from="1656650971286" duration="631000" />
+      <workItem from="1656672029947" duration="730000" />
+      <workItem from="1656767355705" duration="607000" />
+      <workItem from="1656834556160" duration="8352000" />
+      <workItem from="1656845487014" duration="13558000" />
+      <workItem from="1656932560030" duration="14201000" />
+      <workItem from="1656947863745" duration="989000" />
+      <workItem from="1656949520371" duration="806000" />
+      <workItem from="1657015478376" duration="6975000" />
+      <workItem from="1657031302381" duration="12183000" />
+      <workItem from="1657098364708" duration="17000" />
+      <workItem from="1657104284838" duration="11436000" />
+      <workItem from="1657164778065" duration="6506000" />
+      <workItem from="1657171416445" duration="15648000" />
+      <workItem from="1658403860216" duration="1747000" />
+      <workItem from="1660471414236" duration="5525000" />
+      <workItem from="1660627751996" duration="666000" />
+      <workItem from="1660676055845" duration="420000" />
+      <workItem from="1660715335711" duration="5871000" />
+      <workItem from="1660749708413" duration="4411000" />
+      <workItem from="1660805694019" duration="10949000" />
+      <workItem from="1660991764066" duration="7163000" />
+      <workItem from="1661159681989" duration="15385000" />
+      <workItem from="1661237251559" duration="9335000" />
+      <workItem from="1661250043013" duration="342000" />
+      <workItem from="1661606630694" duration="5836000" />
+      <workItem from="1661685603659" duration="15069000" />
+      <workItem from="1661754230032" duration="19526000" />
+      <workItem from="1661786008776" duration="2659000" />
+      <workItem from="1661862072343" duration="9679000" />
+      <workItem from="1661874550748" duration="763000" />
+      <workItem from="1661924692440" duration="6113000" />
+      <workItem from="1661933629787" duration="2737000" />
+      <workItem from="1662041982848" duration="229000" />
+      <workItem from="1662101158724" duration="19185000" />
+      <workItem from="1662143545283" duration="940000" />
+      <workItem from="1662144497720" duration="1280000" />
+      <workItem from="1662300857310" duration="8179000" />
+      <workItem from="1662358958564" duration="58000" />
+      <workItem from="1662518480115" duration="12056000" />
+      <workItem from="1662563537554" duration="1440000" />
+      <workItem from="1662567532077" duration="3968000" />
+      <workItem from="1662571785590" duration="558000" />
+      <workItem from="1662615639432" duration="2293000" />
+      <workItem from="1662618248388" duration="2979000" />
+      <workItem from="1662621274098" duration="2961000" />
+      <workItem from="1662642426065" duration="230000" />
+      <workItem from="1662643393235" duration="4000" />
+      <workItem from="1662727755921" duration="52000" />
+      <workItem from="1662785549839" duration="1302000" />
+      <workItem from="1662880006862" duration="16000" />
+      <workItem from="1662901159077" duration="342000" />
+      <workItem from="1662901985145" duration="443000" />
+      <workItem from="1662911197997" duration="5615000" />
+      <workItem from="1662917757901" duration="568000" />
+      <workItem from="1663042283018" duration="6244000" />
+      <workItem from="1663081080193" duration="3055000" />
+      <workItem from="1663084267673" duration="48000" />
+    </task>
+    <task id="LOCAL-00001" summary=".">
+      <created>1654450525436</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1654450525436</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Message processing added">
+      <created>1656344152446</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1656344152446</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Game sprites">
+      <created>1656344259945</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1656344259945</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Changed parser, download done, not tested">
+      <created>1657041803494</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1657041803494</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Fixed reading">
+      <created>1657189623040</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1657189623040</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Fixed reading">
+      <created>1657192052810</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1657192052810</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Fixed reading">
+      <created>1657192064024</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1657192064024</updated>
+    </task>
+    <task id="LOCAL-00008" summary="rename">
+      <created>1657193458275</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1657193458275</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Downloads one torrent">
+      <created>1661248344120</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1661248344120</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Remade network">
+      <created>1661788026995</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1661788026995</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Remade network">
+      <created>1661875311665</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1661875311665</updated>
+    </task>
+    <task id="LOCAL-00012" summary="fin">
+      <created>1661934836212</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1661934836212</updated>
+    </task>
+    <task id="LOCAL-00013" summary="fix">
+      <created>1662521769754</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1662521769754</updated>
+    </task>
+    <task id="LOCAL-00014" summary="fin">
+      <created>1662615653566</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1662615653566</updated>
+    </task>
+    <task id="LOCAL-00015" summary="fin2">
+      <created>1663082181572</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1663082181572</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="." />
+    <MESSAGE value="Message processing added" />
+    <MESSAGE value="Game sprites" />
+    <MESSAGE value="Changed parser, download done, not tested" />
+    <MESSAGE value="Fixed reading" />
+    <MESSAGE value="rename" />
+    <MESSAGE value="Downloads one torrent" />
+    <MESSAGE value="Remade network" />
+    <MESSAGE value="fix" />
+    <MESSAGE value="fin" />
+    <MESSAGE value="fin2" />
+    <option name="LAST_COMMIT_MESSAGE" value="fin2" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/nsu/fit/dskvl/torrent/network/TorrentAcceptor.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="199" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/nsu/fit/dskvl/torrent/Client.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="209" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="ru.nsu.fit.dskvl.torrent.Torrent" memberName="partDownloaded" />
+      </pinned-members>
+    </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="GradleRunConfiguration">
+        <watch expression="torrent.partDownloaded.cardinality()" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/torrent$Client.ic" NAME="Client Coverage Results" MODIFIED="1662136131010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
